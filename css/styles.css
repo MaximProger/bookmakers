@@ -539,6 +539,15 @@ body {
 
 @media (max-width: 992px) {
 
+    .team__wrapper {
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+
+    .team__item {
+        margin: 5px;
+    }
+
     .bets__line {
         padding: 7px 9px;
     }
@@ -569,7 +578,7 @@ body {
 @media (max-width: 375px) {
     .team__wrapper {
         flex-wrap: wrap;
-        padding: 5;
+        padding: 5px;
     }
 
     .bets__line {
