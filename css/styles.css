@@ -375,7 +375,7 @@ body {
     padding-top: 30px;
     padding-bottom: 15px;
     color: white;
-    width: 90%;
+    width: 100%;
     background-color: #1b213b;
     padding-left: 18px;
 }
@@ -426,7 +426,7 @@ body {
 .bets__line {
     color: white;
     background-color: #1B213B;
-    width: 90%;
+    width: 100%;
     padding: 14px 18px;
     display: flex;
     justify-content: space-between;
@@ -585,18 +585,41 @@ body {
         flex-wrap: wrap;
     }
 
-    .bets__section--1,
-    .bets__section--2,
     .bets__section--3,
     .bets__section--4 {
-        width: 100%;
+        width: 50%;
     }
 
-    .bets__section--2,
+    .bets__section--1 {
+        width: 50%;
+    }
+
+    .bets__section--2 {
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
     .bets__section--3 {
         display: flex;
         margin-top: 5px;
         justify-content: space-between;
+    }
+
+    .bets__section--2 p:first-child {
+        margin-right: 0px;
+    }
+    
+    .bets__section--2 p:first-child img {
+        margin-left: 0px;
+    }
+
+    .bets__section--4 {
+        text-align: right;
+    }
+
+    .bets__count {
+        margin-right: 15px;
     }
 
     .bets__section--4--bg {
